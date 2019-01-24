@@ -13,7 +13,7 @@ public class LadderDictionary {
 		if (DictWordList == null) {
 			Scanner dScan = null; 
 			String user = System.getProperty("user.name");
-			String DictionaryFile = "C:/Users/"+user+"/Documents/smallDictionary.txt";
+			String DictionaryFile = "data/smallDictionary.txt";
 	        try
 	        {
 	        	dScan = new Scanner(new FileReader(DictionaryFile));
